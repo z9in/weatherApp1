@@ -1,0 +1,19 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_124)">
+<rect width="100" height="100" fill="none"/>
+<line y1="49.95" x2="100" y2="49.95" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<line x1="49.05" x2="49.05" y2="101" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<rect x="10" y="10" width="80" height="80" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<rect x="30" y="30" width="40" height="40" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<circle cx="50" cy="50" r="20" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<circle cx="50" cy="50" r="40" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<line x1="0.0353553" y1="-0.0353553" x2="100.035" y2="99.9646" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<line y1="-0.05" x2="141.421" y2="-0.05" transform="matrix(-0.707107 0.707107 0.707107 0.707107 100 0)" stroke="black" stroke-opacity="0.2" stroke-width="0.1" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48.4 67.9727V80H51.4V67.8901C50.7433 67.9627 50.076 68 49.4 68C49.0644 68 48.731 67.9908 48.4 67.9727ZM39.3245 64.9181L28.1213 76.1213L26 74L36.9756 63.0244C37.7032 63.7187 38.4888 64.3526 39.3245 64.9181ZM31.4 50C31.4 48.9779 31.4852 47.9756 31.6489 47H20V50H31.4ZM36.9756 36.9756C37.7032 36.2813 38.4888 35.6474 39.3245 35.0819L28.1213 23.8787L26 26L36.9756 36.9756ZM48.4 32.0273C48.731 32.0092 49.0644 32 49.4 32C50.076 32 50.7433 32.0373 51.4 32.1099V20H48.4V32.0273ZM62.4244 37.5756C63.1187 38.3032 63.7526 39.0888 64.3181 39.9245L76.1213 28.1213L74 26L62.4244 37.5756ZM67.1511 47C67.3148 47.9756 67.4 48.9779 67.4 50H80V47H67.1511ZM64.3181 60.0755C63.7526 60.9112 63.1187 61.6968 62.4244 62.4244L74 74L76.1213 71.8787L64.3181 60.0755ZM62 50C62 56.6274 56.6274 62 50 62C43.3726 62 38 56.6274 38 50C38 43.3726 43.3726 38 50 38C56.6274 38 62 43.3726 62 50Z" fill="#FFDB7C"/>
+</g>
+<defs>
+<clipPath id="clip0_1_124">
+<rect width="100" height="100" fill="white"/>
+</clipPath>
+</defs>
+</svg>

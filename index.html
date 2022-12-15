@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherMap</title>
+    <link rel="stylesheet" media="screen and (min-width:800px)" href="./src/style.css" >
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="./src/style_mobile.css" >
+</head>
+<body>
+    <div class="wrap">
+        <div class="map">
+         
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell pointer" data-itemtype="paju">7</div>
+                <div class="cell pointer" data-itemtype="paju">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+           
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell pointer" data-itemtype="gapyeong">20</div>
+              
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell pointer" data-itemtype="yangju">11</div>
+                <div class="cell pointer" data-itemtype="yangju">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+          
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell pointer" data-itemtype="gimpo-si">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell pointer" data-itemtype="uijeongbu-si">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+             
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+             
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell pointer" data-itemtype="goyang-si">8</div>
+                <div class="cell pointer" data-itemtype="goyang-si">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell pointer" data-itemtype="namyangju">16</div>
+                <div class="cell pointer" data-itemtype="namyangju">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+              
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell pointer" data-itemtype="guri-si">14</div>
+                <div class="cell pointer" data-itemtype="guri-si">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+              
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell pointer" data-itemtype="seoul">10</div>
+                <div class="cell pointer" data-itemtype="seoul">11</div>
+                <div class="cell pointer" data-itemtype="seoul">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+            
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell pointer" data-itemtype="bucheon">7</div>
+                <div class="cell pointer" data-itemtype="bucheon">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell pointer" data-itemtype="hanam">15</div>
+                <div class="cell pointer" data-itemtype="hanam">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+           
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell pointer" data-itemtype="incheon">5</div>
+                <div class="cell pointer" data-itemtype="incheon">6</div>
+                <div class="cell pointer" data-itemtype="incheon">7</div>
+                <div class="cell">8</div>
+                <div>9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+               
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell pointer" data-itemtype="gwangmyeong-si">9</div>
+                <div class="cell" data-itemtype="anyang-si">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell pointer" data-itemtype="seongnam-si">13</div>
+                <div class="cell pointer" data-itemtype="seongnam-si">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell pointer" data-itemtype="gwangju-si">17</div>
+                <div class="cell pointer" data-itemtype="gwangju-si">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+           
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell pointer" data-itemtype="siheung-si">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+               
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell pointer" data-itemtype="gunpo">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+              
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell pointer" data-itemtype="suwon-si">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+            
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell pointer" data-itemtype="ansan-si">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell pointer" data-itemtype="yongin-si">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell pointer" data-itemtype="hwaseong-si">7</div>
+                <div class="cell pointer" data-itemtype="hwaseong-si">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell pointer" data-itemtype="osan">12</div>
+                <div class="cell pointer" data-itemtype="osan">12</div>
+                <div class="cell">13</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell">17</div>
+                <div class="cell">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell pointer" data-itemtype="anseong-si">17</div>
+                <div class="cell pointer" data-itemtype="anseong-si">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+                <div class="cell">1</div>
+                <div class="cell">2</div>
+                <div class="cell">3</div>
+                <div class="cell">4</div>
+                <div class="cell">5</div>
+                <div class="cell">6</div>
+                <div class="cell">7</div>
+                <div class="cell">8</div>
+                <div class="cell">9</div>
+                <div class="cell">10</div>
+                <div class="cell pointer" data-itemtype="pyeongtaek-si">11</div>
+                <div class="cell">12</div>
+                <div class="cell">13</div>
+                <div class="cell">14</div>
+                <div class="cell">15</div>
+                <div class="cell">16</div>
+                <div class="cell pointer" data-itemtype="anseong-si">17</div>
+                <div class="cell pointer" data-itemtype="anseong-si">18</div>
+                <div class="cell">19</div>
+                <div class="cell">20</div>
+        </div>
+        <div class="weather_box">
+            <h1>오늘의 날씨</h1>
+            <div class="weather">
+                <ul>
+                    <li>
+                        <p>날짜</p>
+                    </li>
+                    <li>
+                        <p>시간</p>
+                    </li>
+                    <li>
+                        <p>장소</p>
+                    </li>
+                    <li>
+                        <p>온도</p>
+                    </li>
+                    <li>
+                        <p>날씨</p>
+                    </li>
+                    <li class="imgBox">
+                       
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./src/main.js"></script>
+    <script src="./src/app.js"></script>
+</body>
+</html>
