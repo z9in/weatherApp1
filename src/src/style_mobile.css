@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: lightblue;
+}
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 5px;
+    /* outline: 1px solid red; */
+
+}
+.map {
+    width: 100%;
+    height: 60%;
+    background-image: url(./images/bgmap.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid rgba(216, 191, 191, 0.5);
+    box-shadow: 0px 0px 20px black;
+    margin-bottom: 5px;
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.cell {
+    width: 5%;
+    height: 5%;
+    /* border: 1px solid red; */
+    color: transparent;
+    display: block;
+}
+.weather_box {
+    width:100%; 
+    height:35%; 
+    border: 2px solid white; 
+    border-radius: 30px; 
+    margin: auto; 
+    margin-bottom: 10px;
+    text-align:center; 
+    background-color: rgba(0,0,0,0.1); 
+    box-shadow:3px 1px 10px white;
+}
+h1 {
+    width: 100%;
+    /* height: 65px; */
+    text-align: center;
+    font-size: 2em;
+    margin: 8px 0;
+}
+
+ul {
+    list-style-type: none; 
+    display:flex; 
+    flex-wrap:wrap; 
+    box-sizing:border-box; 
+    margin:0; 
+    padding:0;
+}
+li {
+    width: 50%;
+    height: 30px;
+    /* outline: 1px solid red; */
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li:first-child {
+    font-size:1.5em; 
+    margin-bottom:10px; 
+    /* margin-top:10px;  */
+    width:60%;  
+    height: 30px;
+    text-align:center;
+    padding:0;        
+}
+li:nth-child(2) {
+    width:40%; 
+    height: 30px;
+    font-size:1.5em;  
+    padding:0; 
+    justify-content: right;
+    padding-right: 35px;
+    margin-bottom: 10px;
+}
+.pointer {
+    cursor: pointer;
+    /* border: 1px solid red */
+}
